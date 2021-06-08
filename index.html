@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Local Storage</title>
+</head>
+<body>
+    <center>
+        <form action="">
+            <h3>Cadastro de clientes</h3>
+            <label>Name: </label><input type="text" id="txtName" /><br>
+            <label>Phone: </label><input type="text" id="txtPhone" /><br>
+            <label>Email: </label><input type="text" id="txtEmail" /><br>
+            <button type="button" onclick="Add()">Save</button>
+        </form>
+    </center>
+
+    <center>
+        <h3>Listas de clientes</h3>
+        <table id="tblList"></table>
+        <button type="button" onclick="removeAll()">Remove All</button>
+    </center>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
